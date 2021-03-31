@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*忘记设置margin和padding都初始化为0了，所以导致文本下移了。*/
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    background: #efefef;
+    margin: 0 0;
+}
+
+#wrapper {
+    width: 980px;
+    margin: 0 auto 20px;
+}
+
